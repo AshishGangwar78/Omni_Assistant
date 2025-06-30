@@ -191,6 +191,7 @@ def route_interview(state) -> str:
         return "mock_interview"
     else:
         # print('Defaulting to mock interview.')  # Commented out
+        
         return "mock_interview"
 
 def route_learning(state):
